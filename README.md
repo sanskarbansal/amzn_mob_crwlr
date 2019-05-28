@@ -15,6 +15,5 @@ scrapy crawl amzn_mob -o FILNAME.json
 ```
 File will be saved as FILENAME.json containing mobile details in JSON Format.
 
-
-eg: I have typed the command in my computer ```scrapy crawl amzn_mob -o Mobile_Data.json```
-Than the file will be saved as 'Mobile_Data.json'
+JSON FILE: 
+**Mobile_Data.json**
