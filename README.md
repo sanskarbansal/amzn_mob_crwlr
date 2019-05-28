@@ -1,7 +1,7 @@
 # Amazon Web Scraper.
 
 ## Type the following command to run this:</br>
-To Install Scrapy using conda, run 
+To Install Scrapy using **conda**, run 
 ```
 conda install -c conda-forge scrapy
 ```
