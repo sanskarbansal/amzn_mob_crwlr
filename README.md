@@ -1,6 +1,6 @@
 # Amazon Web Scraper.
 
-**Type the following command to run this:**</br>
+## Type the following command to run this:</br>
 To Install Scrapy using conda, run 
 ```
 conda install -c conda-forge scrapy
@@ -13,4 +13,4 @@ After Installation of Scrapy, run
 ```
 scrapy crawl amzn_mob -o FILNAME.json
 ```
-**File will be saved as FILENAME.json containing mobile details in JSON Format.**
+File will be saved as FILENAME.json containing mobile details in JSON Format.
