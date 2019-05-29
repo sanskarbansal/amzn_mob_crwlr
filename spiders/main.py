@@ -10,8 +10,6 @@ class Amazon_Mobile(scrapy.Spider):
 		mob_name = res.css("#merchandised-content div.crwTitle a::text").getall()
 		price_span = res.css("#merchandised-content .crwActualPrice span").getall()
 		rating = res.css("#merchandised-content .a-icon-alt::text").getall(); 
-		#price = [i.split("</span>")[-2] for i in price_span]
-		#mob_price = res.css('.a-price-whole::text')
 		for i in range(len(mob_name)): 
 			yield {
 				"Mobile Name" : mob_name[i],
